@@ -25,3 +25,19 @@ func whatarenums() {
 func testreturns(x int, y int) (sum, prod int) {
 	return x + y, x * y
 }
+
+func learntotype(){
+	t1a := "This is a string"
+	t1b := `This is also a string, and auto escapes stuff like quotes`
+	g := 'Σ' // This is a rune. Its an alias for INT32 and I need to look up what that means tbh. Holds a unicode point.
+	var i uint = 32 // has unsigned ints
+	var pi float32 = 22. / 7
+	n := byte('\n') // conversion / typecasting happens this way.
+	var a [4]int // size of arrays are immutable
+	a2 := [...]int{2, 3, 4, 5} // initialize array at declaration
+
+	//Slices are arrays but with dynamic sizing
+
+	s2 := []int{2, 3, 4, 5}
+
+}
